@@ -10,4 +10,27 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.date-container{
+  border: 5px solid silver;
+  height: 300px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4vmin;
+}
+
+.date-container>div>button{
+  width: 15vmin;
+  margin: 0 1vmin;
+  padding: 1.5vmin 2vmin;
+  transition: .2s ease-out;
+}
+
+.date-container>div>button.active{
+  background-color: black;
+  color: white;
 }
